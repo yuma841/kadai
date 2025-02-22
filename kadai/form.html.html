@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D121 長岡佑眞</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img src="img/tec.jpg" alt="" >
+    <div class="contact">
+
+        <form action="">
+            <table class="contact-table">
+                <tr>
+                    <th class="contact-item">氏名(必須)</th>
+                    <td class="contact-body">
+                        <input type="text" name="名前" class="form-text" placeholder="東京電力" required>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="contact-item">性別</th>
+                    <td class="contact-body">
+                        <label class="contact-sex">
+                            <input type="radio" name="性別" />
+                            <span>男性</span  class="contact-sex-txt">
+                        </label>
+                        <label class="contact-sex">
+                            <input type="radio" name="性別" />
+                            <span>女性</span class="contact-sex-txt">
+                        </label>
+                        <label class="contact-sex">
+                            <input type="radio" name="性別" />
+                            <span>未回答</span  class="contact-sex-txt">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="contact-item">メールアドレス</th>
+                    <td class="contact-body">
+                        <input type="email" name="メール" class="form-text"  placeholder="smple@smple.jp" required>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="contact-item">電話番号</th>
+                    <td class="contact-body">
+                        <input type="tel" name="電話" class="form-text"  placeholder="03-1234-5678" required>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="contact-item">お問い合わせ内容(必須)</th>
+                    <td class="contact-body">
+                        <textarea name="問い合わせ" class="form-textarea"  placeholder="お問い合わせを入力してください。" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="contact-item">利用規約(必須)</th>
+                    <td class="contact-body">
+                        <input type="checkbox" name="ri" value="ri1">利用規約に同意する
+                    </td>
+                </tr>
+            </table>
+
+            <input class="contact-submit" type="submit" value="Click here" />
+        </form>
+    </div>
+</body>
+</html>
